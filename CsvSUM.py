@@ -5,7 +5,7 @@ import arrow
 import fnmatch
 import os 
 
-# get current date and subtract 1 day and change date formate
+# get current date and subtract 1 day and change date format
 nv = arrow.now()
 date = nv.shift(days= -1).format('YYYYMMDD')
 
